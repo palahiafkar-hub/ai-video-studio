@@ -1,8 +1,14 @@
+
 {
   "name": "ai-video-studio-v9",
   "version": "9.0.0",
   "private": true,
-  "description": "AI Video Studio starter with server-side AI connector and deploy configuration",
-  "scripts": {"start": "node server.js"},
-  "engines": {"node": ">=20"}
+  "description": "AI Video Studio V9 - Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
 }
