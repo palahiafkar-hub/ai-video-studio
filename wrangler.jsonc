@@ -1,7 +1,9 @@
 
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "ai-video-studio-v9",
+
+"name": "ai-video-studio",
+
   "main": "worker.js",
   "compatibility_date": "2026-11-21",
   "assets": {
