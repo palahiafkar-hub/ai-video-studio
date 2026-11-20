@@ -1,0 +1,8 @@
+{
+  "name": "ai-video-studio-v9",
+  "version": "9.0.0",
+  "private": true,
+  "description": "AI Video Studio starter with server-side AI connector and deploy configuration",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"}
+}
